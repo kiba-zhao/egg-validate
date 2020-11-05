@@ -1,0 +1,31 @@
+{
+  "name": "egg-validate",
+  "version": "0.0.0",
+  "description": "eggjs validate plugin",
+  "eggPlugin": {
+    "name": "validate"
+  },
+  "scripts": {
+    "test": "egg-bin test"
+  },
+  "keywords": [
+    "validate"
+  ],
+  "author": "kiba.x.zhao",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/is": "0.0.21",
+    "@types/node": "^14.0.1",
+    "@types/power-assert": "^1.5.3",
+    "egg": "^2.26.1",
+    "egg-bin": "^4.14.1",
+    "egg-mock": "^4.0.0",
+    "power-assert": "^1.6.1",
+    "sinon": "^9.0.2"
+  },
+  "dependencies": {
+    "ajv": "^6.12.2",
+    "ajv-merge-patch": "^4.1.0",
+    "is": "^3.3.0"
+  }
+}

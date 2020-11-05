@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "simple schema",
+  "$merge": {
+    "source":{"$ref": "definitions#/definitions/resource"},
+    "with":{
+      "properties": {
+        "simple": {
+          "type": "string"
+        },
+        "others":{
+          "type":"object",
+          "properties":{
+            "name":{
+              "type":"string"
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}
